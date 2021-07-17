@@ -1,0 +1,96 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #e5e5e5;
+}
+.container {
+	display: flex;
+	width: 1024px;
+	hight: 1072px;
+	backgrounf-color: #fff;
+	margin-bottom: 87px;
+}
+.left-side {
+	width: 310px;
+	height: 656px;
+	border-top: 46px solid #fff;
+	border-left: 57px solid #fff;
+	background-color: #1a142d;
+	text-align: center;
+}
+.photo {
+	padding-top: 18px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.name {
+	font-size: 48px;
+	font-weight: bold;
+	line-height: 55px;
+	color: #fff;
+	margin-bottom: 17px;
+}
+.birth-information {
+	font-size: 14px;
+	line-height: 4px;
+	font-weight: 400;
+	color: #fff;
+}
+.socials-icon:hover {
+	position: relative;
+	bottom: 10px;
+}
+.gallery-item {
+	position: relative;
+	width: 206px;
+}
+.gallery-label {
+	display: none;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	color: #fff;
+	background-color: #1a142d;
+	padding-top: 5px;
+	padding-left: 12px;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+	margin: 0;
+}
+/* свойства будут применяться к элементу gallery-label, который лежит внутри элемента gallery-item, на который навели курсор мыши */
+.gallery-item:hover .gallery-label {
+	display: block;
+}
+
+.right-side {
+	background-color: #fff;
+	padding-top: 64px;
+	padding-left: 67px;
+	padding-right: 123px;
+}
+.description-item {
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 400;
+}
+.jobs, 
+.education {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 31px;
+}
+.jobs-list,
+.education-list {
+	padding-left: 16px;
+}
+.jobs-item,
+.education-item {
+	font-size: 14px;
+	line-height: 20px;
+}
+.accent {
+	color: #ff3131;
+}
