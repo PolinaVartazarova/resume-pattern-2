@@ -1,6 +1,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #e5e5e5;
+	margin: 0;
 	padding: 40px;
 }
 .container {
@@ -9,19 +10,21 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	backgrounf-color: #fff;
+	box-sizing: border-box;
+}   
+.frame {
+	background-color: #fff;
 }
 .left-side {
 	width: 310px;
 	height: 656px;
-	border-top: 64px solid #fff;
-	border-left: 57px solid #fff;
+	margin-top: 64px;
+	margin-left: 57px;
 	background-color: #1a142d;
 	text-align: center;
 }
 .photo {
-	padding-top: 18px;
-	padding-left: 18px;
-	padding-right: 18px;
+	padding: 18px 18px 0 18px;
 }
 .name {
 	font-size: 48px;
@@ -43,6 +46,42 @@ body {
 	position: relative;
 	bottom: 9px;
 }
+.right-side {
+	background-color: #fff;
+	padding-top: 64px;
+	padding-left: 67px;
+	padding-right: 129px;
+}
+p {
+	margin-top: 0;
+}
+.description-item {
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: 400;
+}
+.jobs, 
+.education {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 31px;
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+.jobs-list,
+.education-list {
+	padding-left: 18px;
+	margin-bottom: 40px;
+}
+.jobs-item,
+.education-item {
+	font-size: 14px;
+	line-height: 20px;
+}
+.accent {
+	color: #ff3131;
+}
+/* display: flex; justify-content: space-between распределяет содержимое (элементы, контент) по горизонтали равномерно внутри блока*/
 .gallery {
 	display: flex;
 	width: 910px;
@@ -79,37 +118,4 @@ body {
 /* свойства будут применяться к элементу gallery-label, который лежит внутри элемента gallery-item, на который навели курсор мыши */
 .gallery-item:hover .gallery-label {
 	display: block;
-}
-
-.right-side {
-	background-color: #fff;
-	padding-top: 53px;
-	padding-left: 67px;
-	padding-right: 129px;
-}
-.description-item {
-	font-size: 14px;
-	line-height: 17px;
-	font-weight: 400;
-}
-.jobs, 
-.education {
-	font-size: 24px;
-	font-weight: bold;
-	line-height: 31px;
-	margin-top: 40px;
-	margin-bottom: 0;
-}
-.jobs-list,
-.education-list {
-	padding-left: 18px;
-	margin-bottom: 40px;
-}
-.jobs-item,
-.education-item {
-	font-size: 14px;
-	line-height: 20px;
-}
-.accent {
-	color: #ff3131;
 }
