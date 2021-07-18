@@ -1,13 +1,14 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #e5e5e5;
+	padding: 40px;
 }
 .container {
 	display: flex;
 	width: 1024px;
-	hight: 1072px;
+	margin-left: auto;
+	margin-right: auto;
 	backgrounf-color: #fff;
-	margin-bottom: 87px;
 }
 .left-side {
 	width: 310px;
@@ -39,6 +40,18 @@ body {
 	position: relative;
 	bottom: 10px;
 }
+.gallery {
+	display: flex;
+	width: 910px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	justify-content: space-between;
+	padding-top: 87px;
+	padding-right: 57px;
+	padding-left: 57px;
+	padding-bottom: 59px;
+}
 .gallery-item {
 	position: relative;
 	width: 206px;
@@ -69,7 +82,7 @@ body {
 	background-color: #fff;
 	padding-top: 64px;
 	padding-left: 67px;
-	padding-right: 123px;
+	padding-right: 129px;
 }
 .description-item {
 	font-size: 14px;
